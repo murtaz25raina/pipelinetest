@@ -7,11 +7,11 @@ pipeline {
                 stage("Hi"){
             steps{echo "Hi" }
         }
-                stage("Murtaz"){
-            steps{echo "Murtaz" }
+                stage("Ankit"){
+            steps{echo "Ankit" }
         }
-                stage("Raina"){
-            echo{git 'Raina'}
+                stage("Sharma"){
+            echo{git 'Sharma'}
         }
     }
 }
